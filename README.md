@@ -1,13 +1,17 @@
 # pku_auto_connect
 Auto connect pku gateway, and send the ip address to you by Email.
 
-If the connection is established, then check the ip address.
+-If the connection is established, then check the ip address.
 
-if not established, then use program "connect" connect the internet, then check the ip address.
+-if not established, then use program "connect" connect the internet, then check the ip address.
 
-If the ip address is different from the previous one(stored in file named "ip_address"),
+-If the ip address is different from the previous one(stored in file named "ip_address"),
 an Email containing the current ip address will be sended to you malibox.
 Then you can just establish ssh link by the ip address.
+# Requirements
+-ubuntu
+
+-sendmail（sudo apt-get install sendemail）
 # modify user account
 in auto_connect.sh, set following varibles:
 
