@@ -9,7 +9,7 @@ Auto connect pku gateway, and send the ip address to you by Email.
 an Email containing the current ip address will be sended to you malibox.
 Then you can just establish ssh link by the ip address.
 # Requirements
-- Ubuntu
+- ubuntu
 
 - sendmail（sudo apt-get install sendemail）
 # modify user account
