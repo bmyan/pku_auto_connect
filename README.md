@@ -42,3 +42,6 @@ export email_smtphost=smtp.sina.cn
 # Add to crond service
  so you have to add "0 * * * * /bin/bash path_to_this_script" by the command "crontab -e".
  Then the scrip will be called every hour.
+
+# Add to start up service
+vim /etc/rc.local, add /bin/bash path_to_this_script to the file.
