@@ -36,7 +36,7 @@ export email_password=xxxxxxx
 export email_smtphost=smtp.sina.cn  
 export email_title="IP address"  
 #IP 前缀
-export ip_pattern="inet addr:162"
+export ip_pattern="162.105"
 
 # function for sending email. "sudo apt-get install sendemail" is required.
 # the username, password, reciver's mail should be filled in the function.

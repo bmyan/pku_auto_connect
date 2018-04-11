@@ -43,6 +43,9 @@ smtp服务器地址
 
 export email_smtphost=smtp.sina.cn
 
+IP 地址样式
+
+export ip_pattern="162.105"
 # Add to crond service
  so you have to add "0 * * * * /bin/bash path_to_this_script" by the command "crontab -e".
  Then the scrip will be called every hour.
