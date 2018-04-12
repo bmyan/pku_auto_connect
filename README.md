@@ -16,7 +16,7 @@ Then you can just establish ssh link by the ip address.
 
 - connect (PKU Gateway Connector for Linux, v1.1)
 
-# modify user account
+# Modify user account
 in auto_connect.sh, set following varibles:
 
 脚本绝对路径,
