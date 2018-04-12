@@ -56,3 +56,5 @@ export ip_pattern="162.105"
 
 # Add to start up service
 vim /etc/rc.local, add /bin/bash path_to_this_script to the file.
+
+If you further set your BOIS->Power Management Setup, PWR Lost Resume State as last state. Then your server will startup after power interrupt, and connect the Internet, tell you the IP address.
